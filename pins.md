@@ -1,0 +1,1 @@
+Pins are basically like IPFS (IPLD) nodes as a first class programming concept.  Adding this to a functional programming system has many unexpected emergent advantages.
