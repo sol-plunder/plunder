@@ -7,4 +7,6 @@ Also online: <https://creativecommons.org/licenses/by-nc-nd/4.0/>.
 
 # Plunder Mind Map
 
-TODO
+Concepts:
+
+- [Pins](pins.md)
