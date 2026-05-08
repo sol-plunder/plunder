@@ -2,9 +2,9 @@ In the original Plunder design, There was a guarantee that any any two pins that
 
 While this is indeed a very convenient property, it turns out to be prohibitively expensive.
 
-Furthermore, it also means that the runtime system needs to maintain a global data structure mapping hashes to pins, and there's a lot of questions around where that data structure lives and how it interacts with garbage collection.
+Furthermore, it also means that the runtime system needs to maintain a global data structure mapping hashes to pins, and there's a lot of questions around where that data structure lives and how it interacts with garbage collection and snapshotting.
 
-The new design weakens this guarantee, and allows duplicate pins to be constructed.  Instead, user code will maintain a mapping from hashes to pins, and deduplication will only be performed in certain contexts.
+The modern design drops this guarantee, and allows duplicate pins to be constructed.  Instead, user (kernel) code will maintain a mapping from hashes to important pins, and deduplication will only be performed manually, and only in certain contexts.
 
 # Unifying Duplicate Pins
 
