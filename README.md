@@ -10,3 +10,5 @@ Also online: <https://creativecommons.org/licenses/by-nc-nd/4.0/>.
 Concepts:
 
 - [Pins](pins.md)
+
+- [PinTypes](PinTypes.md)
