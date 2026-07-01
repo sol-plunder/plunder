@@ -9,4 +9,4 @@ Also online: <https://creativecommons.org/licenses/by-nc-nd/4.0/>.
 
 Concepts: [Pins](pins.md)
 
-Operational Concerns: [PinTypes](PinTypes.md), [NatJets](NatJets.md)
+Operational Concerns: [PinTypes](PinTypes.md), [NatJets](NatJets.md), [Handles](Handle.md)
