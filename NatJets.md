@@ -1,6 +1,6 @@
 # On the Manual Implementation of Natural Number Primitives
 
-I think impls actually *should* roll their own bignum libraries, been meaning to write something about this.
+Each PLAN runtime should roll its own bignum implementation instead of relying on one from its context (JS bignums, for example), and especially instead of using libgmp.
 
 My thinking is that the core jetted operations should be portable, so there should not be any asymptomatic differences in performance per impl, otherwise code will only work in theory across impls, and not in practice.
 
