@@ -7,8 +7,6 @@ Also online: <https://creativecommons.org/licenses/by-nc-nd/4.0/>.
 
 # Plunder Mind Map
 
-Concepts:
+Concepts: [Pins](pins.md)
 
-- [Pins](pins.md)
-
-- [PinTypes](PinTypes.md)
+Operational Concerns: [PinTypes](PinTypes.md), [NatJets](NatJets.md)
